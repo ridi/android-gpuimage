@@ -49,6 +49,9 @@ ext {
     allLicenses = ["Apache-2.0"]
 }
 
+group = publishedGroupId
+version = VERSION_NAME
+
 // TODO: Close JCenter on May 1st https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/
 // apply from: 'https://gist.githubusercontent.com/wasabeef/cf14805bee509baf7461974582f17d26/raw/bintray-v1.gradle'
 // apply from: 'https://gist.githubusercontent.com/wasabeef/cf14805bee509baf7461974582f17d26/raw/install-v1.gradle'
