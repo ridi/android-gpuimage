@@ -31,27 +31,7 @@ android {
     ndkVersion '21.1.6352462'
 }
 
-ext {
-    bintrayRepo = 'maven'
-    bintrayName = 'gpuimage'
-    bintrayUserOrg = 'ridi'
-    publishedGroupId = 'com.github.ridi'
-    libraryName = 'gpuimage'
-    artifact = 'gpuimage'
-    libraryDescription = 'Image filters for Android with OpenGL (based on GPUImage for iOS)'
-    siteUrl = 'https://github.com/ridi/android-gpuimage'
-    gitUrl = 'https://github.com/ridi/android-gpuimage.git'
-    issueUrl = 'https://github.com/ridi/android-gpuimage/issues'
-    libraryVersion = VERSION_NAME
-    developerId = 'cats'
-    developerName = 'CATS'
-    developerEmail = 'dadadada.chop@gmail.com'
-    licenseName = 'The Apache Software License, Version 2.0'
-    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
-    allLicenses = ["Apache-2.0"]
-}
-
-group = publishedGroupId
+group = 'com.github.ridi'
 version = VERSION_NAME
 
 // TODO: Close JCenter on May 1st https://jfrog.com/blog/into-the-sunset-bintray-jcenter-gocenter-and-chartcenter/
