@@ -27,6 +27,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    ndkVersion '21.1.6352462'
 }
 
 ext {
